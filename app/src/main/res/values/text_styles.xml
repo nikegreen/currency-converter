@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:targetApi="p">24sp>
+
+    <style name="TextAppearance">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Unset">
+        <item name="fontPath" tools:targetApi="jelly_bean">sans-serif</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:textAppearance">@style/TextAppearance.Unset</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+
+    <style name="Text" parent="TextView">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:lineSpacingMultiplier">1</item>
+        <item name="android:fontFeatureSettings">case</item>
+    </style>
+
+    <style name="Text.Regular">
+        <item name="fontPath">fonts/YS Text-Regular.ttf</item>
+    </style>
+
+    <style name="Text.Bold">
+        <item name="fontPath">fonts/YS Text-Bold.ttf</item>
+    </style>
+
+    <style name="Text.Bold.16_20">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineHeight">20sp</item>
+    </style>
+
+    <style name="Text.Bold.16_20.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Text.Bold.16_20.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Text.Bold.16_24">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineHeight">24sp</item>
+    </style>
+
+    <style name="Text.Bold.16_24.Gray">
+        <item name="android:textColor">@color/text_gray</item>
+    </style>
+
+    <style name="Text.Regular.12_14">
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineHeight">14sp</item>
+    </style>
+
+    <style name="Text.Regular.12_14.Gray">
+        <item name="android:textColor">@color/text_gray</item>
+    </style>
+
+    <style name="Text.Regular.16_24">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineHeight">24sp</item>
+    </style>
+
+    <style name="Text.Regular.40">
+        <item name="android:textSize">40sp</item>
+    </style>
+</resources>

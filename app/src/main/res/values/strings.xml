@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+
+    <!-- Converter Screen -->
+    <string name="converter_convert_button_text">Convert</string>
+    <string name="converter_from_currency_icon_content_description">From Currency Icon</string>
+    <string name="converter_to_currency_icon_content_description">To Currency Icon</string>
+    <string name="converter_refresh_button_content_description">Refresh entered data</string>
+    <string name="converter_swap_button_content_description">Swap currencies</string>
+    <string name="converter_currency_cource" translatable="false">%1$d %2$s = %3$f %4$s</string>
+    <string name="converter_currency_cource_error">Currency data loading error</string>
+    <string name="converter_course_change">%1$s%2$.2f (%3$.2f) today</string>
+
+    <!-- Currencies Screen -->
+    <string name="currencies_title">Currency selection</string>
+    <string name="currencies_icon_content_description">Currency Icon</string>
+
+    <!-- Currencies -->
+    <string name="currency_australia">Australian Dollar</string>
+    <string name="currency_canada">Canadian Dollar</string>
+    <string name="currency_switzerland">Swiss Franc</string>
+    <string name="currency_china">Chinese Renminbi</string>
+    <string name="currency_czech_republic">Czech Koruna</string>
+    <string name="currency_denmark">Danish Krone</string>
+    <string name="currency_european_union">Euro</string>
+    <string name="currency_united_kingdom">Pound Sterling</string>
+    <string name="currency_hong_kong">Hong Kong Dollar</string>
+    <string name="currency_japan">Japanese Yen</string>
+    <string name="currency_norway">Norwegian Krone</string>
+    <string name="currency_poland">Polish Złoty</string>
+    <string name="currency_russia">Russian Ruble</string>
+    <string name="currency_sweden">Swedish Krona</string>
+    <string name="currency_singapore">Singapore Dollar</string>
+    <string name="currency_turkey">Turkish Lira</string>
+    <string name="currency_united_states">United States Dollar</string>
+    <string name="currency_south_africa">South African Rand</string>
+</resources>

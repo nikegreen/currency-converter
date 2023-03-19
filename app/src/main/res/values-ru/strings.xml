@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Конвертер валют</string>
+
+    <!-- Converter Screen -->
+    <string name="converter_convert_button_text">Сконвертировать</string>
+    <string name="converter_from_currency_icon_content_description">Иконка валюты из которой происходит конвертация</string>
+    <string name="converter_to_currency_icon_content_description">Иконка валюты в которую происходит конвертация</string>
+    <string name="converter_refresh_button_content_description">Сбросить введенные данные</string>
+    <string name="converter_swap_button_content_description">Поменять валюты местами</string>
+    <string name="converter_currency_cource_error">Ошибка загрузки курса валют</string>
+    <string name="converter_course_change">%1$s%2$.2f (%3$.2f) за сегодня</string>
+
+    <!-- Currencies Screen -->
+    <string name="currencies_title">Выбор валюты</string>
+    <string name="currencies_icon_content_description">Иконка валюты</string>
+
+    <!-- Currencies -->
+    <string name="currency_australia">Австралийский доллар</string>
+    <string name="currency_canada">Канадский доллар</string>
+    <string name="currency_switzerland">Швейцарский Франк</string>
+    <string name="currency_china">Китайский юань</string>
+    <string name="currency_czech_republic">Чешская крона</string>
+    <string name="currency_denmark">Датская крона</string>
+    <string name="currency_european_union">Евро</string>
+    <string name="currency_united_kingdom">Британский фунт</string>
+    <string name="currency_hong_kong">Гонконгский доллар</string>
+    <string name="currency_japan">Японская йена</string>
+    <string name="currency_norway">Норвежская крона</string>
+    <string name="currency_poland">Польский злотый</string>
+    <string name="currency_russia">Российский рубль</string>
+    <string name="currency_sweden">Шведская крона</string>
+    <string name="currency_singapore">Сингапурский доллар</string>
+    <string name="currency_turkey">Турецкая лира</string>
+    <string name="currency_united_states">Доллар США</string>
+    <string name="currency_south_africa">Ранд ЮАР</string>
+</resources>
