@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.practicum.currencyconverter"
-        minSdk 31
+        minSdk 26
         targetSdk 31
         versionCode 1
         versionName "1.0"
@@ -28,8 +28,6 @@ android {
     buildFeatures {
         viewBinding true
     }
-    namespace 'com.practicum.currencyconverter'
-    buildToolsVersion '30.0.3'
 }
 
 dependencies {
